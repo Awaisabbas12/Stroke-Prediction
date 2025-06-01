@@ -1,11 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sklearn.pipeline import Pipeline
 import joblib
-from sklearn.impute import SimpleImputer
-from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder, StandardScaler
-from sklearn.compose import ColumnTransformer
 
 # Load saved model
 model = joblib.load(r'final_pipeline.pkl')
