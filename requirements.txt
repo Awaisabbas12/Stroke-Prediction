@@ -1,5 +1,3 @@
 joblib
 pandas
 numpy
-streamlib
-sklrean
